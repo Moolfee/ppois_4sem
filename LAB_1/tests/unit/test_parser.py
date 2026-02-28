@@ -33,3 +33,10 @@ def test_parse_empty_command() -> None:
 
     with pytest.raises(CommandParseError):
         parser.parse("   ")
+
+
+def test_parse_invalid_quotes() -> None:
+    parser = CommandParser()
+
+    with pytest.raises(CommandParseError):
+        parser.parse('video add "broken')

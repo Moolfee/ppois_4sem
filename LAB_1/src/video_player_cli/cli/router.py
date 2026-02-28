@@ -1,6 +1,7 @@
 from collections.abc import Callable
 
 from video_player_cli.cli.command import Command
+from video_player_cli.cli.exceptions import UnknownCommandError
 
 CommandHandler = Callable[[Command], bool]
 
@@ -15,5 +16,5 @@ class CommandRouter:
     def dispatch(self, command: Command) -> bool:
         handler = self._handlers.get(command.name)
         if handler is None:
-            raise KeyError(f"Unknown command: {command.name}")
+            raise UnknownCommandError.for_command(command.name)
         return handler(command)

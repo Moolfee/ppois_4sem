@@ -54,6 +54,15 @@ def test_cli_reports_validation_error() -> None:
     assert any("must be an integer" in error for error in io.errors)
 
 
+def test_cli_reports_unknown_command() -> None:
+    io = FakeConsoleIO(["abracadabra", "exit"])
+    app = CliApp(io=io)
+
+    app.run()
+
+    assert any("Unknown command. Type 'help'." in error for error in io.errors)
+
+
 def test_help_contains_supported_formats() -> None:
     io = FakeConsoleIO(["help", "exit"])
     app = CliApp(io=io)

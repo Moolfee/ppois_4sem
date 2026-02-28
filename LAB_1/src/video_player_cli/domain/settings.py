@@ -9,7 +9,7 @@ class SoundSettings:
 
     def set_volume(self, value: int) -> None:
         if not 0 <= value <= 100:
-            raise InvalidVolumeError("Volume must be in range 0..100")
+            raise InvalidVolumeError.for_value(value)
         self.volume = value
 
 
@@ -19,5 +19,5 @@ class DisplaySettings:
 
     def set_brightness(self, value: int) -> None:
         if not 0 <= value <= 100:
-            raise InvalidBrightnessError("Brightness must be in range 0..100")
+            raise InvalidBrightnessError.for_value(value)
         self.brightness = value

@@ -27,9 +27,9 @@ class VideoPlayer:
 
     def add_video(self, video: VideoFile) -> None:
         if not self.formats.is_supported(video.format_ext):
-            raise UnsupportedFormatError(f"Unsupported format: {video.format_ext}")
+            raise UnsupportedFormatError.for_format(video.format_ext)
         if self._find_video(video.title) is not None:
-            raise DuplicateVideoError(f"Video already exists: {video.title}")
+            raise DuplicateVideoError.for_title(video.title)
         self.library.append(video)
 
     def list_videos(self) -> list[VideoFile]:
@@ -44,7 +44,7 @@ class VideoPlayer:
                     self.current_video = None
                     self.playback.stop()
                 return
-        raise VideoNotFoundError(f"Video not found: {title}")
+        raise VideoNotFoundError.for_title(title)
 
     def select_video(self, title: str) -> None:
         video = self._find_video_or_raise(title)
@@ -52,7 +52,7 @@ class VideoPlayer:
 
     def play(self) -> None:
         if self.current_video is None:
-            raise PlaybackError("Cannot play without selected video")
+            raise PlaybackError.no_selected_video()
         self.playback.play()
 
     def pause(self) -> None:
@@ -69,7 +69,7 @@ class VideoPlayer:
 
     def create_playlist(self, name: str) -> None:
         if self._find_playlist(name) is not None:
-            raise PlaylistAlreadyExistsError(f"Playlist already exists: {name}")
+            raise PlaylistAlreadyExistsError.for_name(name)
         self.playlists.append(Playlist(name=name))
 
     def list_playlists(self) -> list[Playlist]:
@@ -78,7 +78,7 @@ class VideoPlayer:
     def get_playlist(self, name: str) -> Playlist:
         playlist = self._find_playlist(name)
         if playlist is None:
-            raise PlaylistNotFoundError(f"Playlist not found: {name}")
+            raise PlaylistNotFoundError.for_name(name)
         return playlist
 
     def add_video_to_playlist(self, playlist_name: str, video_title: str) -> None:
@@ -90,9 +90,7 @@ class VideoPlayer:
         playlist = self.get_playlist(playlist_name)
         removed = playlist.remove_video(video_title)
         if not removed:
-            raise VideoNotFoundError(
-                f"Video not found in playlist '{playlist_name}': {video_title}"
-            )
+            raise VideoNotFoundError.for_playlist_video(playlist_name, video_title)
 
     def select_video_from_playlist(self, playlist_name: str, video_title: str) -> None:
         playlist = self.get_playlist(playlist_name)
@@ -100,9 +98,7 @@ class VideoPlayer:
             if video.title == video_title:
                 self.current_video = video
                 return
-        raise VideoNotFoundError(
-            f"Video not found in playlist '{playlist_name}': {video_title}"
-        )
+        raise VideoNotFoundError.for_playlist_video(playlist_name, video_title)
 
     def status(self) -> dict[str, str | int | None]:
         current_title = self.current_video.title if self.current_video else None
@@ -127,7 +123,7 @@ class VideoPlayer:
     def _find_video_or_raise(self, title: str) -> VideoFile:
         video = self._find_video(title)
         if video is None:
-            raise VideoNotFoundError(f"Video not found: {title}")
+            raise VideoNotFoundError.for_title(title)
         return video
 
     def _find_playlist(self, name: str) -> Playlist | None:

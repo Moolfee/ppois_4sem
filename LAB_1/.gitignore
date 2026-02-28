@@ -1,5 +1,23 @@
+# Python cache/artifacts
 __pycache__/
 *.py[cod]
+*.pyo
+
+# Tool caches
 .pytest_cache/
 .ruff_cache/
+.mypy_cache/
+
+# Virtual envs
 .venv/
+venv/
+env/
+
+# IDE / OS junk
+.idea/
+.vscode/
+.DS_Store
+
+# Local runtime/temp files
+*.log
+*.tmp

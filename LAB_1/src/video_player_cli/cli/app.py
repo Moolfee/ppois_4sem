@@ -1,7 +1,12 @@
 from video_player_cli.application.services import PlayerService
 from video_player_cli.cli.command import Command
 from video_player_cli.cli.console_io import ConsoleIO
-from video_player_cli.cli.exceptions import CliError, CommandParseError
+from video_player_cli.cli.exceptions import (
+    CliError,
+    CommandParseError,
+    UsageError,
+    ValueValidationError,
+)
 from video_player_cli.cli.help_provider import HelpProvider
 from video_player_cli.cli.parser import CommandParser
 from video_player_cli.cli.router import CommandRouter
@@ -48,8 +53,6 @@ class CliApp:
                 is_running = False
             except (CommandParseError, CliError, DomainError) as error:
                 self.io.print_error(str(error))
-            except KeyError:
-                self.io.print_error("Unknown command. Type 'help'.")
             except Exception as error:  # noqa: BLE001
                 self.io.print_error(f"Unhandled error: {error}")
 
@@ -99,25 +102,25 @@ class CliApp:
 
     def _handle_formats(self, command: Command) -> bool:
         if len(command.args) != 1 or command.args[0].lower() != "list":
-            raise CliError("Usage: formats list")
+            raise UsageError.for_usage("formats list")
         formats = ", ".join(self.service.list_supported_formats())
         self.io.print_line(f"Supported formats: {formats}")
         return True
 
     def _handle_video(self, command: Command) -> bool:
         if not command.args:
-            raise CliError("Usage: video <add|list|remove|select> ...")
+            raise UsageError.for_usage("video <add|list|remove|select> ...")
 
         action = command.args[0].lower()
         args = command.args[1:]
 
         if action == "add":
             if len(args) != 3:
-                raise CliError("Usage: video add <title> <format> <duration_seconds>")
+                raise UsageError.for_usage("video add <title> <format> <duration_seconds>")
             title, format_ext, duration_raw = args
             duration = self._parse_int(duration_raw, "duration_seconds")
             if duration <= 0:
-                raise CliError("duration_seconds must be > 0")
+                raise ValueValidationError.must_be_positive("duration_seconds")
             self.service.add_video(title, format_ext, duration)
             self.io.print_line(f"Video added: {title}")
             return True
@@ -136,7 +139,7 @@ class CliApp:
 
         if action == "select":
             if len(args) != 1:
-                raise CliError("Usage: video select <title>")
+                raise UsageError.for_usage("video select <title>")
             title = args[0]
             self.service.select_video(title)
             self.io.print_line(f"Selected video: {title}")
@@ -144,24 +147,24 @@ class CliApp:
 
         if action == "remove":
             if len(args) != 1:
-                raise CliError("Usage: video remove <title>")
+                raise UsageError.for_usage("video remove <title>")
             title = args[0]
             self.service.remove_video(title)
             self.io.print_line(f"Video removed: {title}")
             return True
 
-        raise CliError("Usage: video <add|list|remove|select> ...")
+        raise UsageError.for_usage("video <add|list|remove|select> ...")
 
     def _handle_playlist(self, command: Command) -> bool:
         if not command.args:
-            raise CliError("Usage: playlist <create|list|add|remove|show|select> ...")
+            raise UsageError.for_usage("playlist <create|list|add|remove|show|select> ...")
 
         action = command.args[0].lower()
         args = command.args[1:]
 
         if action == "create":
             if len(args) != 1:
-                raise CliError("Usage: playlist create <name>")
+                raise UsageError.for_usage("playlist create <name>")
             name = args[0]
             self.service.create_playlist(name)
             self.io.print_line(f"Playlist created: {name}")
@@ -179,7 +182,7 @@ class CliApp:
 
         if action == "add":
             if len(args) != 2:
-                raise CliError("Usage: playlist add <name> <video_title>")
+                raise UsageError.for_usage("playlist add <name> <video_title>")
             name, video_title = args
             self.service.add_to_playlist(name, video_title)
             self.io.print_line(f"Added '{video_title}' to playlist '{name}'")
@@ -187,7 +190,7 @@ class CliApp:
 
         if action == "remove":
             if len(args) != 2:
-                raise CliError("Usage: playlist remove <name> <video_title>")
+                raise UsageError.for_usage("playlist remove <name> <video_title>")
             name, video_title = args
             self.service.remove_from_playlist(name, video_title)
             self.io.print_line(f"Removed '{video_title}' from playlist '{name}'")
@@ -195,7 +198,7 @@ class CliApp:
 
         if action == "show":
             if len(args) != 1:
-                raise CliError("Usage: playlist show <name>")
+                raise UsageError.for_usage("playlist show <name>")
             name = args[0]
             playlist = self.service.show_playlist(name)
             if not playlist.videos:
@@ -209,7 +212,7 @@ class CliApp:
 
         if action == "select":
             if len(args) != 2:
-                raise CliError("Usage: playlist select <name> <video_title>")
+                raise UsageError.for_usage("playlist select <name> <video_title>")
             name, video_title = args
             self.service.select_from_playlist(name, video_title)
             self.io.print_line(
@@ -217,11 +220,11 @@ class CliApp:
             )
             return True
 
-        raise CliError("Usage: playlist <create|list|add|remove|show|select> ...")
+        raise UsageError.for_usage("playlist <create|list|add|remove|show|select> ...")
 
     def _handle_volume(self, command: Command) -> bool:
         if len(command.args) != 2 or command.args[0].lower() != "set":
-            raise CliError("Usage: volume set <0-100>")
+            raise UsageError.for_usage("volume set <0-100>")
         value = self._parse_int(command.args[1], "volume")
         self.service.set_volume(value)
         self.io.print_line(f"Volume set to {value}")
@@ -229,7 +232,7 @@ class CliApp:
 
     def _handle_brightness(self, command: Command) -> bool:
         if len(command.args) != 2 or command.args[0].lower() != "set":
-            raise CliError("Usage: brightness set <0-100>")
+            raise UsageError.for_usage("brightness set <0-100>")
         value = self._parse_int(command.args[1], "brightness")
         self.service.set_brightness(value)
         self.io.print_line(f"Brightness set to {value}")
@@ -239,11 +242,11 @@ class CliApp:
         try:
             return int(raw)
         except ValueError as error:
-            raise CliError(f"{field_name} must be an integer") from error
+            raise ValueValidationError.integer_required(field_name) from error
 
     def _ensure_arg_count(self, command: Command, expected: int, usage: str) -> None:
         self._ensure_exact_arg_len(command.args, expected, usage)
 
     def _ensure_exact_arg_len(self, args: list[str], expected: int, usage: str) -> None:
         if len(args) != expected:
-            raise CliError(f"Usage: {usage}")
+            raise UsageError.for_usage(usage)
