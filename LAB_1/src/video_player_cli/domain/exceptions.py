@@ -1,6 +1,4 @@
 class DomainError(Exception):
-    """Базовая ошибка доменной логики."""
-
     default_message = "Domain error"
 
     def __init__(self, message: str | None = None, **context: str | int) -> None:
@@ -13,8 +11,6 @@ class DomainError(Exception):
 
 
 class UnsupportedFormatError(DomainError):
-    """Формат файла не поддерживается."""
-
     default_message = "Unsupported format"
 
     @classmethod
@@ -23,8 +19,6 @@ class UnsupportedFormatError(DomainError):
 
 
 class VideoNotFoundError(DomainError):
-    """Видеофайл не найден."""
-
     default_message = "Video not found"
 
     @classmethod
@@ -43,8 +37,6 @@ class VideoNotFoundError(DomainError):
 
 
 class DuplicateVideoError(DomainError):
-    """Видеофайл с таким названием уже существует."""
-
     default_message = "Video already exists"
 
     @classmethod
@@ -53,8 +45,6 @@ class DuplicateVideoError(DomainError):
 
 
 class PlaylistNotFoundError(DomainError):
-    """Плейлист не найден."""
-
     default_message = "Playlist not found"
 
     @classmethod
@@ -63,8 +53,6 @@ class PlaylistNotFoundError(DomainError):
 
 
 class PlaylistAlreadyExistsError(DomainError):
-    """Плейлист с таким названием уже существует."""
-
     default_message = "Playlist already exists"
 
     @classmethod
@@ -73,8 +61,6 @@ class PlaylistAlreadyExistsError(DomainError):
 
 
 class InvalidVolumeError(DomainError):
-    """Некорректное значение громкости."""
-
     default_message = "Volume must be in range 0..100"
 
     @classmethod
@@ -83,8 +69,6 @@ class InvalidVolumeError(DomainError):
 
 
 class InvalidBrightnessError(DomainError):
-    """Некорректное значение яркости."""
-
     default_message = "Brightness must be in range 0..100"
 
     @classmethod
@@ -93,8 +77,6 @@ class InvalidBrightnessError(DomainError):
 
 
 class InvalidDurationError(DomainError):
-    """Некорректная длительность видео."""
-
     default_message = "duration_seconds must be > 0"
 
     @classmethod
@@ -103,8 +85,6 @@ class InvalidDurationError(DomainError):
 
 
 class PlaybackError(DomainError):
-    """Некорректная операция воспроизведения."""
-
     default_message = "Playback operation is invalid"
 
     @classmethod

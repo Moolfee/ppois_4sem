@@ -1,6 +1,4 @@
 class CliError(Exception):
-    """Базовая ошибка CLI."""
-
     default_message = "CLI error"
 
     def __init__(self, message: str | None = None, **context: str | int) -> None:
@@ -13,8 +11,6 @@ class CliError(Exception):
 
 
 class CommandParseError(CliError):
-    """Ошибка разбора команды пользователя."""
-
     default_message = "Parse error"
 
     @classmethod
@@ -27,8 +23,6 @@ class CommandParseError(CliError):
 
 
 class UnknownCommandError(CliError):
-    """Команда не распознана роутером."""
-
     default_message = "Unknown command. Type 'help'."
 
     @classmethod
@@ -37,16 +31,12 @@ class UnknownCommandError(CliError):
 
 
 class UsageError(CliError):
-    """Неверное использование команды."""
-
     @classmethod
     def for_usage(cls, usage: str) -> "UsageError":
         return cls(f"Usage: {usage}", usage=usage)
 
 
 class ValueValidationError(CliError):
-    """Ошибка валидации пользовательского значения."""
-
     @classmethod
     def integer_required(cls, field_name: str) -> "ValueValidationError":
         return cls(f"{field_name} must be an integer", field=field_name)

@@ -1,115 +1,210 @@
-# Архитектура проекта
+# Архитектура и модель классов
 
-## 1. Общая схема
+## 1. Общая архитектура
 
-Система построена по слоистой архитектуре:
+Проект построен в 3 слоя:
 
-- `domain`: бизнес-сущности и правила.
-- `application`: сценарии использования, объединяющие вызовы доменной модели.
-- `cli`: пользовательский интерфейс, ручной разбор и маршрутизация команд.
+- `domain` - бизнес-модель, инварианты и правила.
+- `application` - сервисный слой (use-case API), через который работает интерфейс.
+- `cli` - парсинг команд, роутинг, взаимодействие с пользователем.
 
-Зависимости направлены сверху вниз:
+Направление зависимостей:
 
 - `cli` -> `application` -> `domain`
 
-`domain` ничего не знает о CLI.
+`domain` не зависит от верхних слоев.
 
-## 2. Domain-слой
+## 2. Domain-слой: классы, поля, ответственность
 
-### `VideoFile`
+### `VideoFile` (`domain/video_file.py`)
 
-Описание видео: название, формат, длительность.
+Поля:
 
-### `SupportedFormats`
+- `title: str`
+- `format_ext: str`
+- `duration_seconds: int`
 
-- хранит набор форматов;
-- проверяет поддерживается ли формат (`is_supported`);
-- отдает отсортированный список поддерживаемых форматов (`list_formats`).
+Ответственность:
 
-### `PlaybackControl`
+- хранит данные о видео;
+- валидирует длительность в `__post_init__` (`duration_seconds > 0`), иначе `InvalidDurationError`.
 
-Содержит состояние проигрывания:
+Взаимодействия:
 
-- `stopped`
-- `playing`
-- `paused`
+- создается в `PlayerService.add_video()`;
+- хранится в `VideoPlayer.library` и `Playlist.videos`.
 
-### `SoundSettings` и `DisplaySettings`
+### `SupportedFormats` (`domain/supported_formats.py`)
 
-- `SoundSettings.set_volume(0..100)`
-- `DisplaySettings.set_brightness(0..100)`
+Поля:
 
-Выход за границы вызывает исключения.
+- `formats: set[str]` (по умолчанию `{"mp4", "avi", "mkv"}`)
 
-### `Playlist`
+Методы:
 
-Именованный контейнер списка `VideoFile`.
+- `is_supported(format_ext)` - проверка с нормализацией (`lower()`, удаление точки).
+- `list_formats()` - отсортированный список форматов.
 
-### `VideoPlayer` (корневой агрегат)
+Взаимодействия:
 
-Содержит:
+- используется `VideoPlayer.add_video()` для проверки формата;
+- используется `VideoPlayer.list_supported_formats()`.
 
-- библиотеку видео;
-- список плейлистов;
-- текущее выбранное видео;
-- настройки звука/яркости;
-- контроль воспроизведения;
-- поддерживаемые форматы.
+### `PlaybackStatus`, `PlaybackControl` (`domain/playback.py`)
 
-Отвечает за целостные операции:
+- `PlaybackStatus`: `STOPPED`, `PLAYING`, `PAUSED`.
+- `PlaybackControl.status` хранит текущее состояние.
 
-- `add_video`, `remove_video`, `select_video`, `list_videos`;
-- `play`, `pause`, `stop`;
-- `create_playlist`, `add_video_to_playlist`, `remove_video_from_playlist`, `select_video_from_playlist`;
-- `status`, `list_supported_formats`.
+Методы:
 
-Важно: при `remove_video` удаляем видео из библиотеки, из всех плейлистов, а если видео было текущим - сбрасываем текущее видео и переводим playback в `stopped`.
+- `play()` -> `PLAYING`
+- `pause()` -> `PAUSED` только если было `PLAYING`
+- `stop()` -> `STOPPED`
+
+Взаимодействия:
+
+- управляется из `VideoPlayer.play/pause/stop`.
+
+### `SoundSettings`, `DisplaySettings` (`domain/settings.py`)
+
+Поля:
+
+- `SoundSettings.volume: int = 50`
+- `DisplaySettings.brightness: int = 50`
+
+Методы:
+
+- `set_volume(value)` - допустим `0..100`, иначе `InvalidVolumeError`.
+- `set_brightness(value)` - допустим `0..100`, иначе `InvalidBrightnessError`.
+
+Взаимодействия:
+
+- вызываются из `VideoPlayer.set_volume/set_brightness`.
+
+### `Playlist` (`domain/playlist.py`)
+
+Поля:
+
+- `name: str`
+- `videos: list[VideoFile]`
+
+Методы:
+
+- `add_video(video)`
+- `remove_video(title) -> bool`
+
+Взаимодействия:
+
+- создается и управляется только через `VideoPlayer`.
+
+### `VideoPlayer` (`domain/player.py`) - корневой агрегат
+
+Поля состояния:
+
+- `library: list[VideoFile]`
+- `playlists: list[Playlist]`
+- `current_video: VideoFile | None`
+- `sound: SoundSettings`
+- `display: DisplaySettings`
+- `formats: SupportedFormats`
+- `playback: PlaybackControl`
+
+Основные операции:
+
+- библиотека: `add_video`, `list_videos`, `remove_video`, `select_video`
+- воспроизведение: `play`, `pause`, `stop`
+- настройки: `set_volume`, `set_brightness`
+- плейлисты: `create_playlist`, `list_playlists`, `get_playlist`, `add_video_to_playlist`, `remove_video_from_playlist`, `select_video_from_playlist`
+- состояние/справка: `status`, `list_supported_formats`
+
+Ключевые правила в `VideoPlayer`:
+
+- запрет дубликатов названий видео (`DuplicateVideoError`);
+- запрет неподдерживаемого формата (`UnsupportedFormatError`);
+- `play()` невозможен без `current_video` (`PlaybackError`);
+- при удалении видео из библиотеки оно удаляется из всех плейлистов;
+- если удаленное видео было текущим, `current_video = None`, состояние -> `stopped`.
+
+### Исключения домена (`domain/exceptions.py`)
+
+Используются типизированные ошибки:
+
+- `UnsupportedFormatError`
+- `VideoNotFoundError`
+- `DuplicateVideoError`
+- `PlaylistNotFoundError`
+- `PlaylistAlreadyExistsError`
+- `InvalidVolumeError`
+- `InvalidBrightnessError`
+- `InvalidDurationError`
+- `PlaybackError`
+
+Все наследуются от `DomainError`.
 
 ## 3. Application-слой
 
-### `PlayerService`
+### `PlayerService` (`application/services.py`)
 
-Тонкий слой use-case. Не содержит отдельной бизнес-логики, но:
+Поля:
+
+- `player: VideoPlayer`
+
+Роль:
 
 - предоставляет стабильный API для CLI;
-- превращает пользовательские данные в доменные объекты (`VideoFile` при `add_video`);
-- изолирует CLI от деталей внутренней модели.
+- создает доменные объекты (`VideoFile`) из пользовательского ввода;
+- делегирует бизнес-операции в `VideoPlayer`.
+
+Важная деталь:
+
+- в `add_video` формат нормализуется в нижний регистр (`format_ext.lower()`).
 
 ## 4. CLI-слой
 
-### `ConsoleIO`
+### `Command` (`cli/command.py`)
 
-Абстракция ввода/вывода (`read_line`, `print_line`, `print_error`).
+- DTO команды: `name: str`, `args: list[str]`.
 
-### `CommandParser`
+### `CommandParser` (`cli/parser.py`)
 
-Парсит строку команды в объект `Command`.
+- парсит строку в `Command` через `shlex.split`;
+- поддерживает кавычки (`"my demo"`);
+- пустой ввод/ошибка синтаксиса -> `CommandParseError`.
 
-- используется `shlex.split`, поэтому поддерживаются кавычки;
-- пустой ввод и синтаксические ошибки формируют `CommandParseError`.
+### `CommandRouter` (`cli/router.py`)
 
-### `CommandRouter`
+- реестр обработчиков `dict[str, CommandHandler]`;
+- `dispatch(command)` вызывает обработчик по имени;
+- неизвестная команда -> `UnknownCommandError`.
 
-Хранит словарь обработчиков и вызывает нужный обработчик по `command.name`.
+### `ConsoleIO` (`cli/console_io.py`)
 
-### `CliApp`
+- абстракция ввода/вывода: `read_line`, `print_line`, `print_error`.
 
-- цикл приложения;
-- регистрация обработчиков;
-- обработка ошибок;
-- преобразование аргументов и вывод сообщений.
+### `HelpProvider` (`cli/help_provider.py`)
 
-## 5. Обработка ошибок
+- возвращает текст справки и список поддерживаемых форматов.
 
-Ошибки разделены по слоям:
+### `CliApp` (`cli/app.py`)
 
-- `domain.exceptions.*` - нарушения бизнес-правил.
-- `cli.exceptions.*` - ошибки пользовательского ввода/синтаксиса команд.
+Роль:
 
-CLI перехватывает ошибки и продолжает работу, не завершая процесс аварийно.
+- главный цикл приложения (`run`);
+- регистрация команд и обработчиков;
+- валидация аргументов;
+- вызов `PlayerService`;
+- перехват ошибок (`CliError`, `DomainError`, `CommandParseError`) без аварийного завершения.
 
-## 6. Почему такой дизайн
+Связи:
 
-- Легко тестировать доменную логику независимо от CLI.
-- Легко расширять список команд.
-- Поведение системы прозрачное: каждый слой решает свою задачу.
+- `CliApp` использует `ConsoleIO`, `CommandParser`, `CommandRouter`, `PlayerService`.
+- Обработчики в `CliApp` вызывают методы `PlayerService`, а тот - `VideoPlayer`.
+
+## 5. Поток выполнения команды
+
+1. Пользователь вводит строку в CLI.
+2. `CommandParser` преобразует строку в `Command`.
+3. `CommandRouter` находит обработчик.
+4. Обработчик `CliApp` валидирует аргументы и вызывает `PlayerService`.
+5. `PlayerService` выполняет операцию через `VideoPlayer`.
+6. Результат или ошибка выводится через `ConsoleIO`.

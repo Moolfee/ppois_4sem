@@ -21,3 +21,4 @@ env/
 # Local runtime/temp files
 *.log
 *.tmp
+*.coverage
