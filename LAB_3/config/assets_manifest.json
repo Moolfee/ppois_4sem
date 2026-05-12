@@ -1,0 +1,85 @@
+{
+  "targets": {
+    "sheet": {
+      "file": "assets/targets/chicken_sheet.png",
+      "background_mode": "white_magenta",
+      "native_direction": "left"
+    },
+    "depths": {
+      "near": {
+        "frame_duration_ms": 85,
+        "fly": {
+          "rect": [2, 2, 140, 1976],
+          "frames": 13
+        },
+        "fall": {
+          "rect": [144, 2, 140, 1216],
+          "frames": 8
+        }
+      },
+      "mid": {
+        "frame_duration_ms": 100,
+        "fly": {
+          "rect": [286, 2, 120, 1560],
+          "frames": 13
+        },
+        "fall": {
+          "rect": [408, 2, 120, 960],
+          "frames": 8
+        }
+      },
+      "far": {
+        "frame_duration_ms": 120,
+        "fly": {
+          "rect": [530, 2, 44, 416],
+          "frames": 13
+        },
+        "fall": {
+          "rect": [576, 2, 44, 256],
+          "frames": 8
+        }
+      }
+    }
+  },
+  "special_targets": {
+    "foreground_huhn": {
+      "native_direction": "left",
+      "idle_start_frame": 5,
+      "appear": {
+        "file": "assets/targets/foreground_huhn_sheet.png",
+        "background_mode": "magenta",
+        "direction": "vertical",
+        "frame_size": [380, 380],
+        "frame_layout": "cell"
+      },
+      "death": {
+        "file": "assets/targets/foreground_huhn_death_sheet.png",
+        "background_mode": "magenta",
+        "direction": "vertical",
+        "frame_size": [380, 380],
+        "frame_layout": "cell"
+      }
+    }
+  },
+  "ui": {
+    "crosshair": {
+      "file": "assets/ui/crosshair_sheet.png",
+      "background_mode": "magenta",
+      "direction": "vertical",
+      "frame_size": [40, 40],
+      "scale": 1.8
+    },
+    "ammo": {
+      "file": "assets/ui/ammo_sheet.png",
+      "background_mode": "magenta",
+      "direction": "vertical",
+      "frame_size": [112, 84],
+      "scale": 0.7
+    },
+    "bullet_hole": {
+      "file": "assets/ui/bullet_hole.png",
+      "background_mode": "magenta",
+      "scale": 1.0
+    }
+  }
+}

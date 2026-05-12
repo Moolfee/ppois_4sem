@@ -22,6 +22,7 @@
 
 - `title: str`
 - `format_ext: str`
+Поля:
 - `duration_seconds: int`
 
 Ответственность:

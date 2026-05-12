@@ -1,0 +1,8 @@
+{
+  "master_volume": 0.5999999999999998,
+  "music_volume": 0.5999999999999999,
+  "gameplay_sfx_volume": 0.5,
+  "weapon_sfx_volume": 0.4,
+  "ui_sfx_volume": 0.5,
+  "borderless_fullscreen": true
+}

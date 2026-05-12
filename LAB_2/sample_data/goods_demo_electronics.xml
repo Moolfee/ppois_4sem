@@ -1,0 +1,423 @@
+<?xml version="1.0" ?>
+<goods_items>
+  <goods>
+    <goods_name>Ноутбук для офиса, серия 1</goods_name>
+    <manufacturer_name>БелЭлектроСнаб</manufacturer_name>
+    <manufacturer_tin>190345671</manufacturer_tin>
+    <quantity_in_stock>0</quantity_in_stock>
+    <warehouse_addres>Минск, ул. Притыцкого, 62, склад 1</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Монитор 27 дюймов, серия 1</goods_name>
+    <manufacturer_name>ТехИмпорт Плюс</manufacturer_name>
+    <manufacturer_tin>290456782</manufacturer_tin>
+    <quantity_in_stock>7</quantity_in_stock>
+    <warehouse_addres>Брест, ул. Московская, 210, склад 4</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Сетевой коммутатор, серия 1</goods_name>
+    <manufacturer_name>СмартСклад Системы</manufacturer_name>
+    <manufacturer_tin>390567893</manufacturer_tin>
+    <quantity_in_stock>14</quantity_in_stock>
+    <warehouse_addres>Гродно, пр-т Космонавтов, 45, склад 2</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Лазерный принтер, серия 1</goods_name>
+    <manufacturer_name>ПромСеть Дистрибуция</manufacturer_name>
+    <manufacturer_tin>490678904</manufacturer_tin>
+    <quantity_in_stock>21</quantity_in_stock>
+    <warehouse_addres>Витебск, ул. Терешковой, 8Б, склад 3</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>ИБП для серверной, серия 1</goods_name>
+    <manufacturer_name>КомплектСервис</manufacturer_name>
+    <manufacturer_tin>590789015</manufacturer_tin>
+    <quantity_in_stock>28</quantity_in_stock>
+    <warehouse_addres>Гомель, ул. Федюнинского, 17, склад 5</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Веб-камера Full HD, серия 1</goods_name>
+    <manufacturer_name>Городская Логистика</manufacturer_name>
+    <manufacturer_tin>690890126</manufacturer_tin>
+    <quantity_in_stock>35</quantity_in_stock>
+    <warehouse_addres>Минск, ул. Притыцкого, 62, склад 1</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Механическая клавиатура, серия 1</goods_name>
+    <manufacturer_name>БелЭлектроСнаб</manufacturer_name>
+    <manufacturer_tin>190345671</manufacturer_tin>
+    <quantity_in_stock>1</quantity_in_stock>
+    <warehouse_addres>Брест, ул. Московская, 210, склад 4</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Беспроводная мышь, серия 1</goods_name>
+    <manufacturer_name>ТехИмпорт Плюс</manufacturer_name>
+    <manufacturer_tin>290456782</manufacturer_tin>
+    <quantity_in_stock>8</quantity_in_stock>
+    <warehouse_addres>Гродно, пр-т Космонавтов, 45, склад 2</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>SSD накопитель 1 ТБ, серия 1</goods_name>
+    <manufacturer_name>СмартСклад Системы</manufacturer_name>
+    <manufacturer_tin>390567893</manufacturer_tin>
+    <quantity_in_stock>15</quantity_in_stock>
+    <warehouse_addres>Витебск, ул. Терешковой, 8Б, склад 3</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Маршрутизатор Wi-Fi 6, серия 1</goods_name>
+    <manufacturer_name>ПромСеть Дистрибуция</manufacturer_name>
+    <manufacturer_tin>490678904</manufacturer_tin>
+    <quantity_in_stock>22</quantity_in_stock>
+    <warehouse_addres>Гомель, ул. Федюнинского, 17, склад 5</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Док-станция USB-C, серия 1</goods_name>
+    <manufacturer_name>КомплектСервис</manufacturer_name>
+    <manufacturer_tin>590789015</manufacturer_tin>
+    <quantity_in_stock>29</quantity_in_stock>
+    <warehouse_addres>Минск, ул. Притыцкого, 62, склад 1</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Проектор для переговорной, серия 1</goods_name>
+    <manufacturer_name>Городская Логистика</manufacturer_name>
+    <manufacturer_tin>690890126</manufacturer_tin>
+    <quantity_in_stock>36</quantity_in_stock>
+    <warehouse_addres>Брест, ул. Московская, 210, склад 4</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Ноутбук для офиса, серия 2</goods_name>
+    <manufacturer_name>БелЭлектроСнаб</manufacturer_name>
+    <manufacturer_tin>190345671</manufacturer_tin>
+    <quantity_in_stock>2</quantity_in_stock>
+    <warehouse_addres>Гродно, пр-т Космонавтов, 45, склад 2</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Монитор 27 дюймов, серия 2</goods_name>
+    <manufacturer_name>ТехИмпорт Плюс</manufacturer_name>
+    <manufacturer_tin>290456782</manufacturer_tin>
+    <quantity_in_stock>9</quantity_in_stock>
+    <warehouse_addres>Витебск, ул. Терешковой, 8Б, склад 3</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Сетевой коммутатор, серия 2</goods_name>
+    <manufacturer_name>СмартСклад Системы</manufacturer_name>
+    <manufacturer_tin>390567893</manufacturer_tin>
+    <quantity_in_stock>16</quantity_in_stock>
+    <warehouse_addres>Гомель, ул. Федюнинского, 17, склад 5</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Лазерный принтер, серия 2</goods_name>
+    <manufacturer_name>ПромСеть Дистрибуция</manufacturer_name>
+    <manufacturer_tin>490678904</manufacturer_tin>
+    <quantity_in_stock>23</quantity_in_stock>
+    <warehouse_addres>Минск, ул. Притыцкого, 62, склад 1</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>ИБП для серверной, серия 2</goods_name>
+    <manufacturer_name>КомплектСервис</manufacturer_name>
+    <manufacturer_tin>590789015</manufacturer_tin>
+    <quantity_in_stock>30</quantity_in_stock>
+    <warehouse_addres>Брест, ул. Московская, 210, склад 4</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Веб-камера Full HD, серия 2</goods_name>
+    <manufacturer_name>Городская Логистика</manufacturer_name>
+    <manufacturer_tin>690890126</manufacturer_tin>
+    <quantity_in_stock>37</quantity_in_stock>
+    <warehouse_addres>Гродно, пр-т Космонавтов, 45, склад 2</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Механическая клавиатура, серия 2</goods_name>
+    <manufacturer_name>БелЭлектроСнаб</manufacturer_name>
+    <manufacturer_tin>190345671</manufacturer_tin>
+    <quantity_in_stock>3</quantity_in_stock>
+    <warehouse_addres>Витебск, ул. Терешковой, 8Б, склад 3</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Беспроводная мышь, серия 2</goods_name>
+    <manufacturer_name>ТехИмпорт Плюс</manufacturer_name>
+    <manufacturer_tin>290456782</manufacturer_tin>
+    <quantity_in_stock>10</quantity_in_stock>
+    <warehouse_addres>Гомель, ул. Федюнинского, 17, склад 5</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>SSD накопитель 1 ТБ, серия 2</goods_name>
+    <manufacturer_name>СмартСклад Системы</manufacturer_name>
+    <manufacturer_tin>390567893</manufacturer_tin>
+    <quantity_in_stock>17</quantity_in_stock>
+    <warehouse_addres>Минск, ул. Притыцкого, 62, склад 1</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Маршрутизатор Wi-Fi 6, серия 2</goods_name>
+    <manufacturer_name>ПромСеть Дистрибуция</manufacturer_name>
+    <manufacturer_tin>490678904</manufacturer_tin>
+    <quantity_in_stock>24</quantity_in_stock>
+    <warehouse_addres>Брест, ул. Московская, 210, склад 4</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Док-станция USB-C, серия 2</goods_name>
+    <manufacturer_name>КомплектСервис</manufacturer_name>
+    <manufacturer_tin>590789015</manufacturer_tin>
+    <quantity_in_stock>31</quantity_in_stock>
+    <warehouse_addres>Гродно, пр-т Космонавтов, 45, склад 2</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Проектор для переговорной, серия 2</goods_name>
+    <manufacturer_name>Городская Логистика</manufacturer_name>
+    <manufacturer_tin>690890126</manufacturer_tin>
+    <quantity_in_stock>38</quantity_in_stock>
+    <warehouse_addres>Витебск, ул. Терешковой, 8Б, склад 3</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Ноутбук для офиса, серия 3</goods_name>
+    <manufacturer_name>БелЭлектроСнаб</manufacturer_name>
+    <manufacturer_tin>190345671</manufacturer_tin>
+    <quantity_in_stock>4</quantity_in_stock>
+    <warehouse_addres>Гомель, ул. Федюнинского, 17, склад 5</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Монитор 27 дюймов, серия 3</goods_name>
+    <manufacturer_name>ТехИмпорт Плюс</manufacturer_name>
+    <manufacturer_tin>290456782</manufacturer_tin>
+    <quantity_in_stock>11</quantity_in_stock>
+    <warehouse_addres>Минск, ул. Притыцкого, 62, склад 1</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Сетевой коммутатор, серия 3</goods_name>
+    <manufacturer_name>СмартСклад Системы</manufacturer_name>
+    <manufacturer_tin>390567893</manufacturer_tin>
+    <quantity_in_stock>18</quantity_in_stock>
+    <warehouse_addres>Брест, ул. Московская, 210, склад 4</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Лазерный принтер, серия 3</goods_name>
+    <manufacturer_name>ПромСеть Дистрибуция</manufacturer_name>
+    <manufacturer_tin>490678904</manufacturer_tin>
+    <quantity_in_stock>25</quantity_in_stock>
+    <warehouse_addres>Гродно, пр-т Космонавтов, 45, склад 2</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>ИБП для серверной, серия 3</goods_name>
+    <manufacturer_name>КомплектСервис</manufacturer_name>
+    <manufacturer_tin>590789015</manufacturer_tin>
+    <quantity_in_stock>32</quantity_in_stock>
+    <warehouse_addres>Витебск, ул. Терешковой, 8Б, склад 3</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Веб-камера Full HD, серия 3</goods_name>
+    <manufacturer_name>Городская Логистика</manufacturer_name>
+    <manufacturer_tin>690890126</manufacturer_tin>
+    <quantity_in_stock>39</quantity_in_stock>
+    <warehouse_addres>Гомель, ул. Федюнинского, 17, склад 5</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Механическая клавиатура, серия 3</goods_name>
+    <manufacturer_name>БелЭлектроСнаб</manufacturer_name>
+    <manufacturer_tin>190345671</manufacturer_tin>
+    <quantity_in_stock>5</quantity_in_stock>
+    <warehouse_addres>Минск, ул. Притыцкого, 62, склад 1</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Беспроводная мышь, серия 3</goods_name>
+    <manufacturer_name>ТехИмпорт Плюс</manufacturer_name>
+    <manufacturer_tin>290456782</manufacturer_tin>
+    <quantity_in_stock>12</quantity_in_stock>
+    <warehouse_addres>Брест, ул. Московская, 210, склад 4</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>SSD накопитель 1 ТБ, серия 3</goods_name>
+    <manufacturer_name>СмартСклад Системы</manufacturer_name>
+    <manufacturer_tin>390567893</manufacturer_tin>
+    <quantity_in_stock>19</quantity_in_stock>
+    <warehouse_addres>Гродно, пр-т Космонавтов, 45, склад 2</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Маршрутизатор Wi-Fi 6, серия 3</goods_name>
+    <manufacturer_name>ПромСеть Дистрибуция</manufacturer_name>
+    <manufacturer_tin>490678904</manufacturer_tin>
+    <quantity_in_stock>26</quantity_in_stock>
+    <warehouse_addres>Витебск, ул. Терешковой, 8Б, склад 3</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Док-станция USB-C, серия 3</goods_name>
+    <manufacturer_name>КомплектСервис</manufacturer_name>
+    <manufacturer_tin>590789015</manufacturer_tin>
+    <quantity_in_stock>33</quantity_in_stock>
+    <warehouse_addres>Гомель, ул. Федюнинского, 17, склад 5</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Проектор для переговорной, серия 3</goods_name>
+    <manufacturer_name>Городская Логистика</manufacturer_name>
+    <manufacturer_tin>690890126</manufacturer_tin>
+    <quantity_in_stock>40</quantity_in_stock>
+    <warehouse_addres>Минск, ул. Притыцкого, 62, склад 1</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Ноутбук для офиса, серия 4</goods_name>
+    <manufacturer_name>БелЭлектроСнаб</manufacturer_name>
+    <manufacturer_tin>190345671</manufacturer_tin>
+    <quantity_in_stock>6</quantity_in_stock>
+    <warehouse_addres>Брест, ул. Московская, 210, склад 4</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Монитор 27 дюймов, серия 4</goods_name>
+    <manufacturer_name>ТехИмпорт Плюс</manufacturer_name>
+    <manufacturer_tin>290456782</manufacturer_tin>
+    <quantity_in_stock>13</quantity_in_stock>
+    <warehouse_addres>Гродно, пр-т Космонавтов, 45, склад 2</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Сетевой коммутатор, серия 4</goods_name>
+    <manufacturer_name>СмартСклад Системы</manufacturer_name>
+    <manufacturer_tin>390567893</manufacturer_tin>
+    <quantity_in_stock>20</quantity_in_stock>
+    <warehouse_addres>Витебск, ул. Терешковой, 8Б, склад 3</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Лазерный принтер, серия 4</goods_name>
+    <manufacturer_name>ПромСеть Дистрибуция</manufacturer_name>
+    <manufacturer_tin>490678904</manufacturer_tin>
+    <quantity_in_stock>27</quantity_in_stock>
+    <warehouse_addres>Гомель, ул. Федюнинского, 17, склад 5</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>ИБП для серверной, серия 4</goods_name>
+    <manufacturer_name>КомплектСервис</manufacturer_name>
+    <manufacturer_tin>590789015</manufacturer_tin>
+    <quantity_in_stock>34</quantity_in_stock>
+    <warehouse_addres>Минск, ул. Притыцкого, 62, склад 1</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Веб-камера Full HD, серия 4</goods_name>
+    <manufacturer_name>Городская Логистика</manufacturer_name>
+    <manufacturer_tin>690890126</manufacturer_tin>
+    <quantity_in_stock>0</quantity_in_stock>
+    <warehouse_addres>Брест, ул. Московская, 210, склад 4</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Механическая клавиатура, серия 4</goods_name>
+    <manufacturer_name>БелЭлектроСнаб</manufacturer_name>
+    <manufacturer_tin>190345671</manufacturer_tin>
+    <quantity_in_stock>7</quantity_in_stock>
+    <warehouse_addres>Гродно, пр-т Космонавтов, 45, склад 2</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Беспроводная мышь, серия 4</goods_name>
+    <manufacturer_name>ТехИмпорт Плюс</manufacturer_name>
+    <manufacturer_tin>290456782</manufacturer_tin>
+    <quantity_in_stock>14</quantity_in_stock>
+    <warehouse_addres>Витебск, ул. Терешковой, 8Б, склад 3</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>SSD накопитель 1 ТБ, серия 4</goods_name>
+    <manufacturer_name>СмартСклад Системы</manufacturer_name>
+    <manufacturer_tin>390567893</manufacturer_tin>
+    <quantity_in_stock>21</quantity_in_stock>
+    <warehouse_addres>Гомель, ул. Федюнинского, 17, склад 5</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Маршрутизатор Wi-Fi 6, серия 4</goods_name>
+    <manufacturer_name>ПромСеть Дистрибуция</manufacturer_name>
+    <manufacturer_tin>490678904</manufacturer_tin>
+    <quantity_in_stock>28</quantity_in_stock>
+    <warehouse_addres>Минск, ул. Притыцкого, 62, склад 1</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Док-станция USB-C, серия 4</goods_name>
+    <manufacturer_name>КомплектСервис</manufacturer_name>
+    <manufacturer_tin>590789015</manufacturer_tin>
+    <quantity_in_stock>35</quantity_in_stock>
+    <warehouse_addres>Брест, ул. Московская, 210, склад 4</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Проектор для переговорной, серия 4</goods_name>
+    <manufacturer_name>Городская Логистика</manufacturer_name>
+    <manufacturer_tin>690890126</manufacturer_tin>
+    <quantity_in_stock>1</quantity_in_stock>
+    <warehouse_addres>Гродно, пр-т Космонавтов, 45, склад 2</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Ноутбук для офиса, серия 5</goods_name>
+    <manufacturer_name>БелЭлектроСнаб</manufacturer_name>
+    <manufacturer_tin>190345671</manufacturer_tin>
+    <quantity_in_stock>8</quantity_in_stock>
+    <warehouse_addres>Витебск, ул. Терешковой, 8Б, склад 3</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Монитор 27 дюймов, серия 5</goods_name>
+    <manufacturer_name>ТехИмпорт Плюс</manufacturer_name>
+    <manufacturer_tin>290456782</manufacturer_tin>
+    <quantity_in_stock>15</quantity_in_stock>
+    <warehouse_addres>Гомель, ул. Федюнинского, 17, склад 5</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Сетевой коммутатор, серия 5</goods_name>
+    <manufacturer_name>СмартСклад Системы</manufacturer_name>
+    <manufacturer_tin>390567893</manufacturer_tin>
+    <quantity_in_stock>22</quantity_in_stock>
+    <warehouse_addres>Минск, ул. Притыцкого, 62, склад 1</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Лазерный принтер, серия 5</goods_name>
+    <manufacturer_name>ПромСеть Дистрибуция</manufacturer_name>
+    <manufacturer_tin>490678904</manufacturer_tin>
+    <quantity_in_stock>29</quantity_in_stock>
+    <warehouse_addres>Брест, ул. Московская, 210, склад 4</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>ИБП для серверной, серия 5</goods_name>
+    <manufacturer_name>КомплектСервис</manufacturer_name>
+    <manufacturer_tin>590789015</manufacturer_tin>
+    <quantity_in_stock>36</quantity_in_stock>
+    <warehouse_addres>Гродно, пр-т Космонавтов, 45, склад 2</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Веб-камера Full HD, серия 5</goods_name>
+    <manufacturer_name>Городская Логистика</manufacturer_name>
+    <manufacturer_tin>690890126</manufacturer_tin>
+    <quantity_in_stock>2</quantity_in_stock>
+    <warehouse_addres>Витебск, ул. Терешковой, 8Б, склад 3</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Механическая клавиатура, серия 5</goods_name>
+    <manufacturer_name>БелЭлектроСнаб</manufacturer_name>
+    <manufacturer_tin>190345671</manufacturer_tin>
+    <quantity_in_stock>9</quantity_in_stock>
+    <warehouse_addres>Гомель, ул. Федюнинского, 17, склад 5</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Беспроводная мышь, серия 5</goods_name>
+    <manufacturer_name>ТехИмпорт Плюс</manufacturer_name>
+    <manufacturer_tin>290456782</manufacturer_tin>
+    <quantity_in_stock>16</quantity_in_stock>
+    <warehouse_addres>Минск, ул. Притыцкого, 62, склад 1</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>SSD накопитель 1 ТБ, серия 5</goods_name>
+    <manufacturer_name>СмартСклад Системы</manufacturer_name>
+    <manufacturer_tin>390567893</manufacturer_tin>
+    <quantity_in_stock>23</quantity_in_stock>
+    <warehouse_addres>Брест, ул. Московская, 210, склад 4</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Маршрутизатор Wi-Fi 6, серия 5</goods_name>
+    <manufacturer_name>ПромСеть Дистрибуция</manufacturer_name>
+    <manufacturer_tin>490678904</manufacturer_tin>
+    <quantity_in_stock>30</quantity_in_stock>
+    <warehouse_addres>Гродно, пр-т Космонавтов, 45, склад 2</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Док-станция USB-C, серия 5</goods_name>
+    <manufacturer_name>КомплектСервис</manufacturer_name>
+    <manufacturer_tin>590789015</manufacturer_tin>
+    <quantity_in_stock>37</quantity_in_stock>
+    <warehouse_addres>Витебск, ул. Терешковой, 8Б, склад 3</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Проектор для переговорной, серия 5</goods_name>
+    <manufacturer_name>Городская Логистика</manufacturer_name>
+    <manufacturer_tin>690890126</manufacturer_tin>
+    <quantity_in_stock>3</quantity_in_stock>
+    <warehouse_addres>Гомель, ул. Федюнинского, 17, склад 5</warehouse_addres>
+  </goods>
+</goods_items>

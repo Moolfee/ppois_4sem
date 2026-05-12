@@ -1,0 +1,423 @@
+<?xml version="1.0" ?>
+<goods_items>
+  <goods>
+    <goods_name>Подшипник радиальный, серия 1</goods_name>
+    <manufacturer_name>Индустрия Комплект</manufacturer_name>
+    <manufacturer_tin>160112233</manufacturer_tin>
+    <quantity_in_stock>0</quantity_in_stock>
+    <warehouse_addres>Минск, ул. Селицкого, 21, промсклад 1</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Сварочный кабель, серия 1</goods_name>
+    <manufacturer_name>СтанкоПоставка</manufacturer_name>
+    <manufacturer_tin>260212234</manufacturer_tin>
+    <quantity_in_stock>7</quantity_in_stock>
+    <warehouse_addres>Жодино, ул. 8 Марта, 14, промсклад 2</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Ремень приводной, серия 1</goods_name>
+    <manufacturer_name>ПромАрсенал</manufacturer_name>
+    <manufacturer_tin>360312235</manufacturer_tin>
+    <quantity_in_stock>14</quantity_in_stock>
+    <warehouse_addres>Солигорск, ул. Заводская, 7, промсклад 3</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Частотный преобразователь, серия 1</goods_name>
+    <manufacturer_name>ЭнергоЛиния</manufacturer_name>
+    <manufacturer_tin>460412236</manufacturer_tin>
+    <quantity_in_stock>21</quantity_in_stock>
+    <warehouse_addres>Новополоцк, ул. Промышленная, 28, промсклад 4</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Пневматический клапан, серия 1</goods_name>
+    <manufacturer_name>ТехПарк Логистик</manufacturer_name>
+    <manufacturer_tin>560512237</manufacturer_tin>
+    <quantity_in_stock>28</quantity_in_stock>
+    <warehouse_addres>Орша, ул. Ленина, 234, промсклад 5</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Защитная каска, серия 1</goods_name>
+    <manufacturer_name>ЗаводРесурс</manufacturer_name>
+    <manufacturer_tin>660612238</manufacturer_tin>
+    <quantity_in_stock>35</quantity_in_stock>
+    <warehouse_addres>Минск, ул. Селицкого, 21, промсклад 1</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Комплект крепежа М12, серия 1</goods_name>
+    <manufacturer_name>Индустрия Комплект</manufacturer_name>
+    <manufacturer_tin>160112233</manufacturer_tin>
+    <quantity_in_stock>1</quantity_in_stock>
+    <warehouse_addres>Жодино, ул. 8 Марта, 14, промсклад 2</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Электродвигатель 5 кВт, серия 1</goods_name>
+    <manufacturer_name>СтанкоПоставка</manufacturer_name>
+    <manufacturer_tin>260212234</manufacturer_tin>
+    <quantity_in_stock>8</quantity_in_stock>
+    <warehouse_addres>Солигорск, ул. Заводская, 7, промсклад 3</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Станочная смазка, серия 1</goods_name>
+    <manufacturer_name>ПромАрсенал</manufacturer_name>
+    <manufacturer_tin>360312235</manufacturer_tin>
+    <quantity_in_stock>15</quantity_in_stock>
+    <warehouse_addres>Новополоцк, ул. Промышленная, 28, промсклад 4</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Манометр промышленный, серия 1</goods_name>
+    <manufacturer_name>ЭнергоЛиния</manufacturer_name>
+    <manufacturer_tin>460412236</manufacturer_tin>
+    <quantity_in_stock>22</quantity_in_stock>
+    <warehouse_addres>Орша, ул. Ленина, 234, промсклад 5</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Шкаф управления, серия 1</goods_name>
+    <manufacturer_name>ТехПарк Логистик</manufacturer_name>
+    <manufacturer_tin>560512237</manufacturer_tin>
+    <quantity_in_stock>29</quantity_in_stock>
+    <warehouse_addres>Минск, ул. Селицкого, 21, промсклад 1</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Редуктор цилиндрический, серия 1</goods_name>
+    <manufacturer_name>ЗаводРесурс</manufacturer_name>
+    <manufacturer_tin>660612238</manufacturer_tin>
+    <quantity_in_stock>36</quantity_in_stock>
+    <warehouse_addres>Жодино, ул. 8 Марта, 14, промсклад 2</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Подшипник радиальный, серия 2</goods_name>
+    <manufacturer_name>Индустрия Комплект</manufacturer_name>
+    <manufacturer_tin>160112233</manufacturer_tin>
+    <quantity_in_stock>2</quantity_in_stock>
+    <warehouse_addres>Солигорск, ул. Заводская, 7, промсклад 3</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Сварочный кабель, серия 2</goods_name>
+    <manufacturer_name>СтанкоПоставка</manufacturer_name>
+    <manufacturer_tin>260212234</manufacturer_tin>
+    <quantity_in_stock>9</quantity_in_stock>
+    <warehouse_addres>Новополоцк, ул. Промышленная, 28, промсклад 4</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Ремень приводной, серия 2</goods_name>
+    <manufacturer_name>ПромАрсенал</manufacturer_name>
+    <manufacturer_tin>360312235</manufacturer_tin>
+    <quantity_in_stock>16</quantity_in_stock>
+    <warehouse_addres>Орша, ул. Ленина, 234, промсклад 5</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Частотный преобразователь, серия 2</goods_name>
+    <manufacturer_name>ЭнергоЛиния</manufacturer_name>
+    <manufacturer_tin>460412236</manufacturer_tin>
+    <quantity_in_stock>23</quantity_in_stock>
+    <warehouse_addres>Минск, ул. Селицкого, 21, промсклад 1</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Пневматический клапан, серия 2</goods_name>
+    <manufacturer_name>ТехПарк Логистик</manufacturer_name>
+    <manufacturer_tin>560512237</manufacturer_tin>
+    <quantity_in_stock>30</quantity_in_stock>
+    <warehouse_addres>Жодино, ул. 8 Марта, 14, промсклад 2</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Защитная каска, серия 2</goods_name>
+    <manufacturer_name>ЗаводРесурс</manufacturer_name>
+    <manufacturer_tin>660612238</manufacturer_tin>
+    <quantity_in_stock>37</quantity_in_stock>
+    <warehouse_addres>Солигорск, ул. Заводская, 7, промсклад 3</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Комплект крепежа М12, серия 2</goods_name>
+    <manufacturer_name>Индустрия Комплект</manufacturer_name>
+    <manufacturer_tin>160112233</manufacturer_tin>
+    <quantity_in_stock>3</quantity_in_stock>
+    <warehouse_addres>Новополоцк, ул. Промышленная, 28, промсклад 4</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Электродвигатель 5 кВт, серия 2</goods_name>
+    <manufacturer_name>СтанкоПоставка</manufacturer_name>
+    <manufacturer_tin>260212234</manufacturer_tin>
+    <quantity_in_stock>10</quantity_in_stock>
+    <warehouse_addres>Орша, ул. Ленина, 234, промсклад 5</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Станочная смазка, серия 2</goods_name>
+    <manufacturer_name>ПромАрсенал</manufacturer_name>
+    <manufacturer_tin>360312235</manufacturer_tin>
+    <quantity_in_stock>17</quantity_in_stock>
+    <warehouse_addres>Минск, ул. Селицкого, 21, промсклад 1</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Манометр промышленный, серия 2</goods_name>
+    <manufacturer_name>ЭнергоЛиния</manufacturer_name>
+    <manufacturer_tin>460412236</manufacturer_tin>
+    <quantity_in_stock>24</quantity_in_stock>
+    <warehouse_addres>Жодино, ул. 8 Марта, 14, промсклад 2</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Шкаф управления, серия 2</goods_name>
+    <manufacturer_name>ТехПарк Логистик</manufacturer_name>
+    <manufacturer_tin>560512237</manufacturer_tin>
+    <quantity_in_stock>31</quantity_in_stock>
+    <warehouse_addres>Солигорск, ул. Заводская, 7, промсклад 3</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Редуктор цилиндрический, серия 2</goods_name>
+    <manufacturer_name>ЗаводРесурс</manufacturer_name>
+    <manufacturer_tin>660612238</manufacturer_tin>
+    <quantity_in_stock>38</quantity_in_stock>
+    <warehouse_addres>Новополоцк, ул. Промышленная, 28, промсклад 4</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Подшипник радиальный, серия 3</goods_name>
+    <manufacturer_name>Индустрия Комплект</manufacturer_name>
+    <manufacturer_tin>160112233</manufacturer_tin>
+    <quantity_in_stock>4</quantity_in_stock>
+    <warehouse_addres>Орша, ул. Ленина, 234, промсклад 5</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Сварочный кабель, серия 3</goods_name>
+    <manufacturer_name>СтанкоПоставка</manufacturer_name>
+    <manufacturer_tin>260212234</manufacturer_tin>
+    <quantity_in_stock>11</quantity_in_stock>
+    <warehouse_addres>Минск, ул. Селицкого, 21, промсклад 1</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Ремень приводной, серия 3</goods_name>
+    <manufacturer_name>ПромАрсенал</manufacturer_name>
+    <manufacturer_tin>360312235</manufacturer_tin>
+    <quantity_in_stock>18</quantity_in_stock>
+    <warehouse_addres>Жодино, ул. 8 Марта, 14, промсклад 2</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Частотный преобразователь, серия 3</goods_name>
+    <manufacturer_name>ЭнергоЛиния</manufacturer_name>
+    <manufacturer_tin>460412236</manufacturer_tin>
+    <quantity_in_stock>25</quantity_in_stock>
+    <warehouse_addres>Солигорск, ул. Заводская, 7, промсклад 3</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Пневматический клапан, серия 3</goods_name>
+    <manufacturer_name>ТехПарк Логистик</manufacturer_name>
+    <manufacturer_tin>560512237</manufacturer_tin>
+    <quantity_in_stock>32</quantity_in_stock>
+    <warehouse_addres>Новополоцк, ул. Промышленная, 28, промсклад 4</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Защитная каска, серия 3</goods_name>
+    <manufacturer_name>ЗаводРесурс</manufacturer_name>
+    <manufacturer_tin>660612238</manufacturer_tin>
+    <quantity_in_stock>39</quantity_in_stock>
+    <warehouse_addres>Орша, ул. Ленина, 234, промсклад 5</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Комплект крепежа М12, серия 3</goods_name>
+    <manufacturer_name>Индустрия Комплект</manufacturer_name>
+    <manufacturer_tin>160112233</manufacturer_tin>
+    <quantity_in_stock>5</quantity_in_stock>
+    <warehouse_addres>Минск, ул. Селицкого, 21, промсклад 1</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Электродвигатель 5 кВт, серия 3</goods_name>
+    <manufacturer_name>СтанкоПоставка</manufacturer_name>
+    <manufacturer_tin>260212234</manufacturer_tin>
+    <quantity_in_stock>12</quantity_in_stock>
+    <warehouse_addres>Жодино, ул. 8 Марта, 14, промсклад 2</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Станочная смазка, серия 3</goods_name>
+    <manufacturer_name>ПромАрсенал</manufacturer_name>
+    <manufacturer_tin>360312235</manufacturer_tin>
+    <quantity_in_stock>19</quantity_in_stock>
+    <warehouse_addres>Солигорск, ул. Заводская, 7, промсклад 3</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Манометр промышленный, серия 3</goods_name>
+    <manufacturer_name>ЭнергоЛиния</manufacturer_name>
+    <manufacturer_tin>460412236</manufacturer_tin>
+    <quantity_in_stock>26</quantity_in_stock>
+    <warehouse_addres>Новополоцк, ул. Промышленная, 28, промсклад 4</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Шкаф управления, серия 3</goods_name>
+    <manufacturer_name>ТехПарк Логистик</manufacturer_name>
+    <manufacturer_tin>560512237</manufacturer_tin>
+    <quantity_in_stock>33</quantity_in_stock>
+    <warehouse_addres>Орша, ул. Ленина, 234, промсклад 5</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Редуктор цилиндрический, серия 3</goods_name>
+    <manufacturer_name>ЗаводРесурс</manufacturer_name>
+    <manufacturer_tin>660612238</manufacturer_tin>
+    <quantity_in_stock>40</quantity_in_stock>
+    <warehouse_addres>Минск, ул. Селицкого, 21, промсклад 1</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Подшипник радиальный, серия 4</goods_name>
+    <manufacturer_name>Индустрия Комплект</manufacturer_name>
+    <manufacturer_tin>160112233</manufacturer_tin>
+    <quantity_in_stock>6</quantity_in_stock>
+    <warehouse_addres>Жодино, ул. 8 Марта, 14, промсклад 2</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Сварочный кабель, серия 4</goods_name>
+    <manufacturer_name>СтанкоПоставка</manufacturer_name>
+    <manufacturer_tin>260212234</manufacturer_tin>
+    <quantity_in_stock>13</quantity_in_stock>
+    <warehouse_addres>Солигорск, ул. Заводская, 7, промсклад 3</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Ремень приводной, серия 4</goods_name>
+    <manufacturer_name>ПромАрсенал</manufacturer_name>
+    <manufacturer_tin>360312235</manufacturer_tin>
+    <quantity_in_stock>20</quantity_in_stock>
+    <warehouse_addres>Новополоцк, ул. Промышленная, 28, промсклад 4</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Частотный преобразователь, серия 4</goods_name>
+    <manufacturer_name>ЭнергоЛиния</manufacturer_name>
+    <manufacturer_tin>460412236</manufacturer_tin>
+    <quantity_in_stock>27</quantity_in_stock>
+    <warehouse_addres>Орша, ул. Ленина, 234, промсклад 5</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Пневматический клапан, серия 4</goods_name>
+    <manufacturer_name>ТехПарк Логистик</manufacturer_name>
+    <manufacturer_tin>560512237</manufacturer_tin>
+    <quantity_in_stock>34</quantity_in_stock>
+    <warehouse_addres>Минск, ул. Селицкого, 21, промсклад 1</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Защитная каска, серия 4</goods_name>
+    <manufacturer_name>ЗаводРесурс</manufacturer_name>
+    <manufacturer_tin>660612238</manufacturer_tin>
+    <quantity_in_stock>0</quantity_in_stock>
+    <warehouse_addres>Жодино, ул. 8 Марта, 14, промсклад 2</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Комплект крепежа М12, серия 4</goods_name>
+    <manufacturer_name>Индустрия Комплект</manufacturer_name>
+    <manufacturer_tin>160112233</manufacturer_tin>
+    <quantity_in_stock>7</quantity_in_stock>
+    <warehouse_addres>Солигорск, ул. Заводская, 7, промсклад 3</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Электродвигатель 5 кВт, серия 4</goods_name>
+    <manufacturer_name>СтанкоПоставка</manufacturer_name>
+    <manufacturer_tin>260212234</manufacturer_tin>
+    <quantity_in_stock>14</quantity_in_stock>
+    <warehouse_addres>Новополоцк, ул. Промышленная, 28, промсклад 4</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Станочная смазка, серия 4</goods_name>
+    <manufacturer_name>ПромАрсенал</manufacturer_name>
+    <manufacturer_tin>360312235</manufacturer_tin>
+    <quantity_in_stock>21</quantity_in_stock>
+    <warehouse_addres>Орша, ул. Ленина, 234, промсклад 5</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Манометр промышленный, серия 4</goods_name>
+    <manufacturer_name>ЭнергоЛиния</manufacturer_name>
+    <manufacturer_tin>460412236</manufacturer_tin>
+    <quantity_in_stock>28</quantity_in_stock>
+    <warehouse_addres>Минск, ул. Селицкого, 21, промсклад 1</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Шкаф управления, серия 4</goods_name>
+    <manufacturer_name>ТехПарк Логистик</manufacturer_name>
+    <manufacturer_tin>560512237</manufacturer_tin>
+    <quantity_in_stock>35</quantity_in_stock>
+    <warehouse_addres>Жодино, ул. 8 Марта, 14, промсклад 2</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Редуктор цилиндрический, серия 4</goods_name>
+    <manufacturer_name>ЗаводРесурс</manufacturer_name>
+    <manufacturer_tin>660612238</manufacturer_tin>
+    <quantity_in_stock>1</quantity_in_stock>
+    <warehouse_addres>Солигорск, ул. Заводская, 7, промсклад 3</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Подшипник радиальный, серия 5</goods_name>
+    <manufacturer_name>Индустрия Комплект</manufacturer_name>
+    <manufacturer_tin>160112233</manufacturer_tin>
+    <quantity_in_stock>8</quantity_in_stock>
+    <warehouse_addres>Новополоцк, ул. Промышленная, 28, промсклад 4</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Сварочный кабель, серия 5</goods_name>
+    <manufacturer_name>СтанкоПоставка</manufacturer_name>
+    <manufacturer_tin>260212234</manufacturer_tin>
+    <quantity_in_stock>15</quantity_in_stock>
+    <warehouse_addres>Орша, ул. Ленина, 234, промсклад 5</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Ремень приводной, серия 5</goods_name>
+    <manufacturer_name>ПромАрсенал</manufacturer_name>
+    <manufacturer_tin>360312235</manufacturer_tin>
+    <quantity_in_stock>22</quantity_in_stock>
+    <warehouse_addres>Минск, ул. Селицкого, 21, промсклад 1</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Частотный преобразователь, серия 5</goods_name>
+    <manufacturer_name>ЭнергоЛиния</manufacturer_name>
+    <manufacturer_tin>460412236</manufacturer_tin>
+    <quantity_in_stock>29</quantity_in_stock>
+    <warehouse_addres>Жодино, ул. 8 Марта, 14, промсклад 2</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Пневматический клапан, серия 5</goods_name>
+    <manufacturer_name>ТехПарк Логистик</manufacturer_name>
+    <manufacturer_tin>560512237</manufacturer_tin>
+    <quantity_in_stock>36</quantity_in_stock>
+    <warehouse_addres>Солигорск, ул. Заводская, 7, промсклад 3</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Защитная каска, серия 5</goods_name>
+    <manufacturer_name>ЗаводРесурс</manufacturer_name>
+    <manufacturer_tin>660612238</manufacturer_tin>
+    <quantity_in_stock>2</quantity_in_stock>
+    <warehouse_addres>Новополоцк, ул. Промышленная, 28, промсклад 4</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Комплект крепежа М12, серия 5</goods_name>
+    <manufacturer_name>Индустрия Комплект</manufacturer_name>
+    <manufacturer_tin>160112233</manufacturer_tin>
+    <quantity_in_stock>9</quantity_in_stock>
+    <warehouse_addres>Орша, ул. Ленина, 234, промсклад 5</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Электродвигатель 5 кВт, серия 5</goods_name>
+    <manufacturer_name>СтанкоПоставка</manufacturer_name>
+    <manufacturer_tin>260212234</manufacturer_tin>
+    <quantity_in_stock>16</quantity_in_stock>
+    <warehouse_addres>Минск, ул. Селицкого, 21, промсклад 1</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Станочная смазка, серия 5</goods_name>
+    <manufacturer_name>ПромАрсенал</manufacturer_name>
+    <manufacturer_tin>360312235</manufacturer_tin>
+    <quantity_in_stock>23</quantity_in_stock>
+    <warehouse_addres>Жодино, ул. 8 Марта, 14, промсклад 2</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Манометр промышленный, серия 5</goods_name>
+    <manufacturer_name>ЭнергоЛиния</manufacturer_name>
+    <manufacturer_tin>460412236</manufacturer_tin>
+    <quantity_in_stock>30</quantity_in_stock>
+    <warehouse_addres>Солигорск, ул. Заводская, 7, промсклад 3</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Шкаф управления, серия 5</goods_name>
+    <manufacturer_name>ТехПарк Логистик</manufacturer_name>
+    <manufacturer_tin>560512237</manufacturer_tin>
+    <quantity_in_stock>37</quantity_in_stock>
+    <warehouse_addres>Новополоцк, ул. Промышленная, 28, промсклад 4</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Редуктор цилиндрический, серия 5</goods_name>
+    <manufacturer_name>ЗаводРесурс</manufacturer_name>
+    <manufacturer_tin>660612238</manufacturer_tin>
+    <quantity_in_stock>3</quantity_in_stock>
+    <warehouse_addres>Орша, ул. Ленина, 234, промсклад 5</warehouse_addres>
+  </goods>
+</goods_items>

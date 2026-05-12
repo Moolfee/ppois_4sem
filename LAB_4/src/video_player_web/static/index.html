@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>LAB_4 Видеоплеер</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="topbar">
+        <div>
+          <h1>Видеоплеер</h1>
+          <p>Веб-интерфейс к модели из LAB_1</p>
+        </div>
+        <button id="refresh-state" class="secondary" type="button">Обновить</button>
+      </header>
+
+      <section class="status-band" aria-label="Current state">
+        <div>
+          <span>Текущее видео</span>
+          <strong id="status-current">None</strong>
+        </div>
+        <div>
+          <span>Воспроизведение</span>
+          <strong id="status-playback">stopped</strong>
+        </div>
+        <div>
+          <span>Громкость</span>
+          <strong id="status-volume">50</strong>
+        </div>
+        <div>
+          <span>Яркость</span>
+          <strong id="status-brightness">50</strong>
+        </div>
+        <div>
+          <span>Видео</span>
+          <strong id="status-library">0</strong>
+        </div>
+        <div>
+          <span>Плейлисты</span>
+          <strong id="status-playlists">0</strong>
+        </div>
+      </section>
+
+      <p id="message" class="message" role="status" aria-live="polite"></p>
+
+      <section class="controls-grid">
+        <section class="panel">
+          <div class="panel-heading">
+            <h2>Управление</h2>
+          </div>
+          <div class="button-row fixed">
+            <button data-playback="play" type="button">Старт</button>
+            <button data-playback="pause" type="button">Пауза</button>
+            <button data-playback="stop" type="button">Стоп</button>
+          </div>
+          <form id="settings-form" class="stack">
+            <label>
+              <span>Громкость</span>
+              <input id="volume-input" name="volume" type="range" min="0" max="100" />
+            </label>
+            <label>
+              <span>Яркость</span>
+              <input
+                id="brightness-input"
+                name="brightness"
+                type="range"
+                min="0"
+                max="100"
+              />
+            </label>
+          </form>
+          <div class="formats">
+            <span>Форматы</span>
+            <div id="formats-list" class="chips"></div>
+          </div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-heading">
+            <h2>Добавить видео</h2>
+          </div>
+          <form id="video-form" class="form-grid">
+            <label>
+              <span>Название</span>
+              <input name="title" required autocomplete="off" />
+            </label>
+            <label>
+              <span>Формат</span>
+              <select id="video-format-select" name="format_ext" required></select>
+            </label>
+            <label>
+              <span>Длительность, сек</span>
+              <input name="duration_seconds" required type="number" min="1" value="60" />
+            </label>
+            <button type="submit">Добавить</button>
+          </form>
+        </section>
+
+        <section class="panel">
+          <div class="panel-heading">
+            <h2>Создать плейлист</h2>
+          </div>
+          <form id="playlist-form" class="form-grid">
+            <label>
+              <span>Название</span>
+              <input name="name" required autocomplete="off" />
+            </label>
+            <button type="submit">Создать</button>
+          </form>
+        </section>
+      </section>
+
+      <section class="content-grid">
+        <section>
+          <div class="section-heading">
+            <h2>Библиотека</h2>
+          </div>
+          <div id="videos-list" class="list"></div>
+        </section>
+
+        <section>
+          <div class="section-heading">
+            <h2>Плейлисты</h2>
+          </div>
+          <div id="playlists-list" class="list"></div>
+        </section>
+      </section>
+    </main>
+
+    <script src="/static/app.js" type="module"></script>
+  </body>
+</html>

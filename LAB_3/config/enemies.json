@@ -1,0 +1,40 @@
+{
+  "foreground_enemy": {
+    "enabled": true,
+    "size": [182, 182],
+    "points": 75,
+    "spawn_interval_ms": [7500, 15000],
+    "visible_time_ms": [5000, 10000],
+    "appear_frame_duration_ms": 105,
+    "death_frame_duration_ms": 95,
+    "death_sink_px": 84,
+    "x_margin": 100,
+    "spawn_bottom_offset_px": 0
+  },
+  "targets": {
+    "near": {
+      "size": [116, 72],
+      "speed": [250, 340],
+      "points": 10,
+      "spawn_interval_ms": [1200, 2000],
+      "directions": ["left", "right"],
+      "y_range": [170, 360]
+    },
+    "mid": {
+      "size": [92, 56],
+      "speed": [180, 260],
+      "points": 20,
+      "spawn_interval_ms": [1500, 2500],
+      "directions": ["left", "right"],
+      "y_range": [120, 300]
+    },
+    "far": {
+      "size": [70, 42],
+      "speed": [120, 190],
+      "points": 30,
+      "spawn_interval_ms": [1900, 3000],
+      "directions": ["left", "right"],
+      "y_range": [80, 230]
+    }
+  }
+}

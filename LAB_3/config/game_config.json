@@ -1,0 +1,162 @@
+{
+  "window": {
+    "title": "LAB_3 - Moorhuhn",
+    "width": 1280,
+    "height": 720,
+    "fps": 60
+  },
+  "gameplay": {
+    "round_time_seconds": 60,
+    "base_scroll_speed": 0,
+    "playfield_width_factor": 3.0,
+    "camera_pan_margin_px": 220,
+    "camera_pan_speed_px_per_sec": 1200,
+    "crosshair_radius": 18,
+    "shot_flash_ms": 120,
+    "hit_effect_ms": 420
+  },
+  "effects": {
+    "shot_flash_color": [255, 243, 142],
+    "shot_flash_base_radius": 4,
+    "shot_flash_max_radius": 26,
+    "hit_popup_color": [255, 210, 62],
+    "hit_popup_base_radius": 10,
+    "hit_popup_max_radius": 38,
+    "bullet_hole_lifetime_ms": [1000, 5000],
+    "bullet_hole_scale_by_layer": {
+      "sky": 0.5,
+      "far_mountains": 0.62,
+      "middle_hills_castle": 0.78,
+      "foreground_landscape": 0.92,
+      "front_trunks": 1.0
+    },
+    "spent_ammo_velocity": [55, -185],
+    "spent_ammo_lifetime_ms": 640,
+    "spent_ammo_rotation_deg": 12,
+    "spent_ammo_angular_velocity_deg": 580
+  },
+  "weapon": {
+    "magazine_size": 7,
+    "reload_time_ms": 1250,
+    "shot_cooldown_ms": 240
+  },
+  "audio": {
+    "enabled": true,
+    "master_volume": 0.7,
+    "music_volume": 0.35,
+    "gameplay_sfx_volume": 0.8,
+    "weapon_sfx_volume": 0.85,
+    "ui_sfx_volume": 0.6
+  },
+  "ui": {
+    "accent_fill_color": [130, 18, 28],
+    "accent_border_color": [198, 56, 52],
+    "accent_hover_fill_color": [201, 92, 24],
+    "accent_hover_border_color": [245, 163, 64],
+    "accent_base_alpha": 192,
+    "accent_hover_alpha": 238,
+    "button_border_radius": 14,
+    "button_small_border_radius": 8,
+    "panel_fill_color": [92, 11, 21],
+    "panel_fill_alpha": 184,
+    "panel_border_color": [181, 52, 48],
+    "panel_border_radius": 18,
+    "loading_overlay_color": [0, 0, 0],
+    "loading_overlay_alpha": 0,
+    "loading_bar_background_color": [78, 8, 16],
+    "loading_bar_background_alpha": 190,
+    "loading_bar_fill_color": [182, 70, 26],
+    "loading_bar_fill_alpha": 240,
+    "loading_bar_border_color": [229, 140, 58],
+    "loading_bar_border_radius": 14,
+    "pause_overlay_color": [20, 4, 10],
+    "pause_overlay_alpha": 142,
+    "crosshair_fallback_color": [238, 63, 48],
+    "hud_left_margin_px": 34,
+    "hud_top_margin_px": 30,
+    "hud_line_gap_px": 30,
+    "hud_timer_right_margin_px": 134,
+    "hud_timer_top_margin_px": 58,
+    "ammo_right_margin_px": 34,
+    "ammo_bottom_margin_px": 34,
+    "ammo_spacing_factor": 0.7,
+    "reload_label_gap_px": 12,
+    "pause_button_width": 420,
+    "pause_button_height": 58,
+    "pause_button_gap_px": 20,
+    "menu_chicken_scale": 1.35,
+    "menu_chicken_center_x": 1035,
+    "menu_chicken_bottom_offset_px": 42,
+    "menu_chicken_down_delay_ms": 650,
+    "menu_chicken_return_duration_ms": 230
+  },
+  "leaderboard": {
+    "file": "data/highscores.json",
+    "max_entries": 10
+  },
+  "enemy_config": {
+    "file": "config/enemies.json"
+  },
+  "parallax_sheet": {
+    "file": "assets/background/parallax_sheet.png",
+    "transparent_color": [255, 0, 255],
+    "mouse_reaction_px": 220,
+    "clear_top_runs_min_width": 120
+  },
+  "layers": [
+    {
+      "name": "sky",
+      "speed_factor": 0.05,
+      "repeat_x": false,
+      "fit_mode": "screen_height",
+      "y": 0,
+      "horizontal_offset": 220,
+      "tile_width": 1280,
+      "height": 720,
+      "source_rect": [0, 0, 2004, 620]
+    },
+    {
+      "name": "far_mountains",
+      "speed_factor": 0.15,
+      "repeat_x": false,
+      "fit_mode": "screen_height",
+      "y": 0,
+      "tile_width": 1280,
+      "height": 720,
+      "source_rect": [0, 620, 2200, 600]
+    },
+    {
+      "name": "middle_hills_castle",
+      "speed_factor": 0.3,
+      "cursor_factor": 0.25,
+      "repeat_x": false,
+      "fit_mode": "screen_height",
+      "y": 0,
+      "tile_width": 1380,
+      "height": 720,
+      "source_rect": [0, 1220, 2450, 600]
+    },
+    {
+      "name": "foreground_landscape",
+      "speed_factor": 0.5,
+      "cursor_factor": 0.5,
+      "repeat_x": false,
+      "fit_mode": "screen_height",
+      "y": 0,
+      "tile_width": 1420,
+      "height": 720,
+      "source_rect": [0, 1820, 2800, 600]
+    },
+    {
+      "name": "front_trunks",
+      "speed_factor": 0.8,
+      "cursor_factor": 0.8,
+      "repeat_x": false,
+      "fit_mode": "screen_height",
+      "y": 0,
+      "tile_width": 1500,
+      "height": 720,
+      "source_rect": [0, 2420, 3200, 588]
+    }
+  ]
+}

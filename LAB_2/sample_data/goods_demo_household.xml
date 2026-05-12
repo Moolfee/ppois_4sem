@@ -1,0 +1,423 @@
+<?xml version="1.0" ?>
+<goods_items>
+  <goods>
+    <goods_name>Набор кухонных полотенец, серия 1</goods_name>
+    <manufacturer_name>ДомКомфорт Поставка</manufacturer_name>
+    <manufacturer_tin>170123451</manufacturer_tin>
+    <quantity_in_stock>0</quantity_in_stock>
+    <warehouse_addres>Минск, ул. Бирюзова, 12, склад Быт-1</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Контейнер для хранения, серия 1</goods_name>
+    <manufacturer_name>Чистый Быт</manufacturer_name>
+    <manufacturer_tin>270223452</manufacturer_tin>
+    <quantity_in_stock>7</quantity_in_stock>
+    <warehouse_addres>Могилёв, ул. Якубовского, 73, склад Быт-2</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Сковорода антипригарная, серия 1</goods_name>
+    <manufacturer_name>КухняМаркет</manufacturer_name>
+    <manufacturer_tin>370323453</manufacturer_tin>
+    <quantity_in_stock>14</quantity_in_stock>
+    <warehouse_addres>Пинск, ул. Центральная, 19, склад Быт-3</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Электрический чайник, серия 1</goods_name>
+    <manufacturer_name>ТекстильТорг</manufacturer_name>
+    <manufacturer_tin>470423454</manufacturer_tin>
+    <quantity_in_stock>21</quantity_in_stock>
+    <warehouse_addres>Бобруйск, ул. Социалистическая, 118, склад Быт-4</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Увлажнитель воздуха, серия 1</goods_name>
+    <manufacturer_name>Уютный Выбор</manufacturer_name>
+    <manufacturer_tin>570523455</manufacturer_tin>
+    <quantity_in_stock>28</quantity_in_stock>
+    <warehouse_addres>Лида, ул. Невского, 21, склад Быт-5</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Пылесос вертикальный, серия 1</goods_name>
+    <manufacturer_name>СкладДомСервис</manufacturer_name>
+    <manufacturer_tin>670623456</manufacturer_tin>
+    <quantity_in_stock>35</quantity_in_stock>
+    <warehouse_addres>Минск, ул. Бирюзова, 12, склад Быт-1</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Комплект постельного белья, серия 1</goods_name>
+    <manufacturer_name>ДомКомфорт Поставка</manufacturer_name>
+    <manufacturer_tin>170123451</manufacturer_tin>
+    <quantity_in_stock>1</quantity_in_stock>
+    <warehouse_addres>Могилёв, ул. Якубовского, 73, склад Быт-2</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Сушилка для одежды, серия 1</goods_name>
+    <manufacturer_name>Чистый Быт</manufacturer_name>
+    <manufacturer_tin>270223452</manufacturer_tin>
+    <quantity_in_stock>8</quantity_in_stock>
+    <warehouse_addres>Пинск, ул. Центральная, 19, склад Быт-3</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Термокружка стальная, серия 1</goods_name>
+    <manufacturer_name>КухняМаркет</manufacturer_name>
+    <manufacturer_tin>370323453</manufacturer_tin>
+    <quantity_in_stock>15</quantity_in_stock>
+    <warehouse_addres>Бобруйск, ул. Социалистическая, 118, склад Быт-4</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Органайзер для ванной, серия 1</goods_name>
+    <manufacturer_name>ТекстильТорг</manufacturer_name>
+    <manufacturer_tin>470423454</manufacturer_tin>
+    <quantity_in_stock>22</quantity_in_stock>
+    <warehouse_addres>Лида, ул. Невского, 21, склад Быт-5</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Настольная лампа, серия 1</goods_name>
+    <manufacturer_name>Уютный Выбор</manufacturer_name>
+    <manufacturer_tin>570523455</manufacturer_tin>
+    <quantity_in_stock>29</quantity_in_stock>
+    <warehouse_addres>Минск, ул. Бирюзова, 12, склад Быт-1</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Фильтр-кувшин для воды, серия 1</goods_name>
+    <manufacturer_name>СкладДомСервис</manufacturer_name>
+    <manufacturer_tin>670623456</manufacturer_tin>
+    <quantity_in_stock>36</quantity_in_stock>
+    <warehouse_addres>Могилёв, ул. Якубовского, 73, склад Быт-2</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Набор кухонных полотенец, серия 2</goods_name>
+    <manufacturer_name>ДомКомфорт Поставка</manufacturer_name>
+    <manufacturer_tin>170123451</manufacturer_tin>
+    <quantity_in_stock>2</quantity_in_stock>
+    <warehouse_addres>Пинск, ул. Центральная, 19, склад Быт-3</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Контейнер для хранения, серия 2</goods_name>
+    <manufacturer_name>Чистый Быт</manufacturer_name>
+    <manufacturer_tin>270223452</manufacturer_tin>
+    <quantity_in_stock>9</quantity_in_stock>
+    <warehouse_addres>Бобруйск, ул. Социалистическая, 118, склад Быт-4</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Сковорода антипригарная, серия 2</goods_name>
+    <manufacturer_name>КухняМаркет</manufacturer_name>
+    <manufacturer_tin>370323453</manufacturer_tin>
+    <quantity_in_stock>16</quantity_in_stock>
+    <warehouse_addres>Лида, ул. Невского, 21, склад Быт-5</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Электрический чайник, серия 2</goods_name>
+    <manufacturer_name>ТекстильТорг</manufacturer_name>
+    <manufacturer_tin>470423454</manufacturer_tin>
+    <quantity_in_stock>23</quantity_in_stock>
+    <warehouse_addres>Минск, ул. Бирюзова, 12, склад Быт-1</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Увлажнитель воздуха, серия 2</goods_name>
+    <manufacturer_name>Уютный Выбор</manufacturer_name>
+    <manufacturer_tin>570523455</manufacturer_tin>
+    <quantity_in_stock>30</quantity_in_stock>
+    <warehouse_addres>Могилёв, ул. Якубовского, 73, склад Быт-2</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Пылесос вертикальный, серия 2</goods_name>
+    <manufacturer_name>СкладДомСервис</manufacturer_name>
+    <manufacturer_tin>670623456</manufacturer_tin>
+    <quantity_in_stock>37</quantity_in_stock>
+    <warehouse_addres>Пинск, ул. Центральная, 19, склад Быт-3</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Комплект постельного белья, серия 2</goods_name>
+    <manufacturer_name>ДомКомфорт Поставка</manufacturer_name>
+    <manufacturer_tin>170123451</manufacturer_tin>
+    <quantity_in_stock>3</quantity_in_stock>
+    <warehouse_addres>Бобруйск, ул. Социалистическая, 118, склад Быт-4</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Сушилка для одежды, серия 2</goods_name>
+    <manufacturer_name>Чистый Быт</manufacturer_name>
+    <manufacturer_tin>270223452</manufacturer_tin>
+    <quantity_in_stock>10</quantity_in_stock>
+    <warehouse_addres>Лида, ул. Невского, 21, склад Быт-5</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Термокружка стальная, серия 2</goods_name>
+    <manufacturer_name>КухняМаркет</manufacturer_name>
+    <manufacturer_tin>370323453</manufacturer_tin>
+    <quantity_in_stock>17</quantity_in_stock>
+    <warehouse_addres>Минск, ул. Бирюзова, 12, склад Быт-1</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Органайзер для ванной, серия 2</goods_name>
+    <manufacturer_name>ТекстильТорг</manufacturer_name>
+    <manufacturer_tin>470423454</manufacturer_tin>
+    <quantity_in_stock>24</quantity_in_stock>
+    <warehouse_addres>Могилёв, ул. Якубовского, 73, склад Быт-2</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Настольная лампа, серия 2</goods_name>
+    <manufacturer_name>Уютный Выбор</manufacturer_name>
+    <manufacturer_tin>570523455</manufacturer_tin>
+    <quantity_in_stock>31</quantity_in_stock>
+    <warehouse_addres>Пинск, ул. Центральная, 19, склад Быт-3</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Фильтр-кувшин для воды, серия 2</goods_name>
+    <manufacturer_name>СкладДомСервис</manufacturer_name>
+    <manufacturer_tin>670623456</manufacturer_tin>
+    <quantity_in_stock>38</quantity_in_stock>
+    <warehouse_addres>Бобруйск, ул. Социалистическая, 118, склад Быт-4</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Набор кухонных полотенец, серия 3</goods_name>
+    <manufacturer_name>ДомКомфорт Поставка</manufacturer_name>
+    <manufacturer_tin>170123451</manufacturer_tin>
+    <quantity_in_stock>4</quantity_in_stock>
+    <warehouse_addres>Лида, ул. Невского, 21, склад Быт-5</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Контейнер для хранения, серия 3</goods_name>
+    <manufacturer_name>Чистый Быт</manufacturer_name>
+    <manufacturer_tin>270223452</manufacturer_tin>
+    <quantity_in_stock>11</quantity_in_stock>
+    <warehouse_addres>Минск, ул. Бирюзова, 12, склад Быт-1</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Сковорода антипригарная, серия 3</goods_name>
+    <manufacturer_name>КухняМаркет</manufacturer_name>
+    <manufacturer_tin>370323453</manufacturer_tin>
+    <quantity_in_stock>18</quantity_in_stock>
+    <warehouse_addres>Могилёв, ул. Якубовского, 73, склад Быт-2</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Электрический чайник, серия 3</goods_name>
+    <manufacturer_name>ТекстильТорг</manufacturer_name>
+    <manufacturer_tin>470423454</manufacturer_tin>
+    <quantity_in_stock>25</quantity_in_stock>
+    <warehouse_addres>Пинск, ул. Центральная, 19, склад Быт-3</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Увлажнитель воздуха, серия 3</goods_name>
+    <manufacturer_name>Уютный Выбор</manufacturer_name>
+    <manufacturer_tin>570523455</manufacturer_tin>
+    <quantity_in_stock>32</quantity_in_stock>
+    <warehouse_addres>Бобруйск, ул. Социалистическая, 118, склад Быт-4</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Пылесос вертикальный, серия 3</goods_name>
+    <manufacturer_name>СкладДомСервис</manufacturer_name>
+    <manufacturer_tin>670623456</manufacturer_tin>
+    <quantity_in_stock>39</quantity_in_stock>
+    <warehouse_addres>Лида, ул. Невского, 21, склад Быт-5</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Комплект постельного белья, серия 3</goods_name>
+    <manufacturer_name>ДомКомфорт Поставка</manufacturer_name>
+    <manufacturer_tin>170123451</manufacturer_tin>
+    <quantity_in_stock>5</quantity_in_stock>
+    <warehouse_addres>Минск, ул. Бирюзова, 12, склад Быт-1</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Сушилка для одежды, серия 3</goods_name>
+    <manufacturer_name>Чистый Быт</manufacturer_name>
+    <manufacturer_tin>270223452</manufacturer_tin>
+    <quantity_in_stock>12</quantity_in_stock>
+    <warehouse_addres>Могилёв, ул. Якубовского, 73, склад Быт-2</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Термокружка стальная, серия 3</goods_name>
+    <manufacturer_name>КухняМаркет</manufacturer_name>
+    <manufacturer_tin>370323453</manufacturer_tin>
+    <quantity_in_stock>19</quantity_in_stock>
+    <warehouse_addres>Пинск, ул. Центральная, 19, склад Быт-3</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Органайзер для ванной, серия 3</goods_name>
+    <manufacturer_name>ТекстильТорг</manufacturer_name>
+    <manufacturer_tin>470423454</manufacturer_tin>
+    <quantity_in_stock>26</quantity_in_stock>
+    <warehouse_addres>Бобруйск, ул. Социалистическая, 118, склад Быт-4</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Настольная лампа, серия 3</goods_name>
+    <manufacturer_name>Уютный Выбор</manufacturer_name>
+    <manufacturer_tin>570523455</manufacturer_tin>
+    <quantity_in_stock>33</quantity_in_stock>
+    <warehouse_addres>Лида, ул. Невского, 21, склад Быт-5</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Фильтр-кувшин для воды, серия 3</goods_name>
+    <manufacturer_name>СкладДомСервис</manufacturer_name>
+    <manufacturer_tin>670623456</manufacturer_tin>
+    <quantity_in_stock>40</quantity_in_stock>
+    <warehouse_addres>Минск, ул. Бирюзова, 12, склад Быт-1</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Набор кухонных полотенец, серия 4</goods_name>
+    <manufacturer_name>ДомКомфорт Поставка</manufacturer_name>
+    <manufacturer_tin>170123451</manufacturer_tin>
+    <quantity_in_stock>6</quantity_in_stock>
+    <warehouse_addres>Могилёв, ул. Якубовского, 73, склад Быт-2</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Контейнер для хранения, серия 4</goods_name>
+    <manufacturer_name>Чистый Быт</manufacturer_name>
+    <manufacturer_tin>270223452</manufacturer_tin>
+    <quantity_in_stock>13</quantity_in_stock>
+    <warehouse_addres>Пинск, ул. Центральная, 19, склад Быт-3</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Сковорода антипригарная, серия 4</goods_name>
+    <manufacturer_name>КухняМаркет</manufacturer_name>
+    <manufacturer_tin>370323453</manufacturer_tin>
+    <quantity_in_stock>20</quantity_in_stock>
+    <warehouse_addres>Бобруйск, ул. Социалистическая, 118, склад Быт-4</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Электрический чайник, серия 4</goods_name>
+    <manufacturer_name>ТекстильТорг</manufacturer_name>
+    <manufacturer_tin>470423454</manufacturer_tin>
+    <quantity_in_stock>27</quantity_in_stock>
+    <warehouse_addres>Лида, ул. Невского, 21, склад Быт-5</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Увлажнитель воздуха, серия 4</goods_name>
+    <manufacturer_name>Уютный Выбор</manufacturer_name>
+    <manufacturer_tin>570523455</manufacturer_tin>
+    <quantity_in_stock>34</quantity_in_stock>
+    <warehouse_addres>Минск, ул. Бирюзова, 12, склад Быт-1</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Пылесос вертикальный, серия 4</goods_name>
+    <manufacturer_name>СкладДомСервис</manufacturer_name>
+    <manufacturer_tin>670623456</manufacturer_tin>
+    <quantity_in_stock>0</quantity_in_stock>
+    <warehouse_addres>Могилёв, ул. Якубовского, 73, склад Быт-2</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Комплект постельного белья, серия 4</goods_name>
+    <manufacturer_name>ДомКомфорт Поставка</manufacturer_name>
+    <manufacturer_tin>170123451</manufacturer_tin>
+    <quantity_in_stock>7</quantity_in_stock>
+    <warehouse_addres>Пинск, ул. Центральная, 19, склад Быт-3</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Сушилка для одежды, серия 4</goods_name>
+    <manufacturer_name>Чистый Быт</manufacturer_name>
+    <manufacturer_tin>270223452</manufacturer_tin>
+    <quantity_in_stock>14</quantity_in_stock>
+    <warehouse_addres>Бобруйск, ул. Социалистическая, 118, склад Быт-4</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Термокружка стальная, серия 4</goods_name>
+    <manufacturer_name>КухняМаркет</manufacturer_name>
+    <manufacturer_tin>370323453</manufacturer_tin>
+    <quantity_in_stock>21</quantity_in_stock>
+    <warehouse_addres>Лида, ул. Невского, 21, склад Быт-5</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Органайзер для ванной, серия 4</goods_name>
+    <manufacturer_name>ТекстильТорг</manufacturer_name>
+    <manufacturer_tin>470423454</manufacturer_tin>
+    <quantity_in_stock>28</quantity_in_stock>
+    <warehouse_addres>Минск, ул. Бирюзова, 12, склад Быт-1</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Настольная лампа, серия 4</goods_name>
+    <manufacturer_name>Уютный Выбор</manufacturer_name>
+    <manufacturer_tin>570523455</manufacturer_tin>
+    <quantity_in_stock>35</quantity_in_stock>
+    <warehouse_addres>Могилёв, ул. Якубовского, 73, склад Быт-2</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Фильтр-кувшин для воды, серия 4</goods_name>
+    <manufacturer_name>СкладДомСервис</manufacturer_name>
+    <manufacturer_tin>670623456</manufacturer_tin>
+    <quantity_in_stock>1</quantity_in_stock>
+    <warehouse_addres>Пинск, ул. Центральная, 19, склад Быт-3</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Набор кухонных полотенец, серия 5</goods_name>
+    <manufacturer_name>ДомКомфорт Поставка</manufacturer_name>
+    <manufacturer_tin>170123451</manufacturer_tin>
+    <quantity_in_stock>8</quantity_in_stock>
+    <warehouse_addres>Бобруйск, ул. Социалистическая, 118, склад Быт-4</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Контейнер для хранения, серия 5</goods_name>
+    <manufacturer_name>Чистый Быт</manufacturer_name>
+    <manufacturer_tin>270223452</manufacturer_tin>
+    <quantity_in_stock>15</quantity_in_stock>
+    <warehouse_addres>Лида, ул. Невского, 21, склад Быт-5</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Сковорода антипригарная, серия 5</goods_name>
+    <manufacturer_name>КухняМаркет</manufacturer_name>
+    <manufacturer_tin>370323453</manufacturer_tin>
+    <quantity_in_stock>22</quantity_in_stock>
+    <warehouse_addres>Минск, ул. Бирюзова, 12, склад Быт-1</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Электрический чайник, серия 5</goods_name>
+    <manufacturer_name>ТекстильТорг</manufacturer_name>
+    <manufacturer_tin>470423454</manufacturer_tin>
+    <quantity_in_stock>29</quantity_in_stock>
+    <warehouse_addres>Могилёв, ул. Якубовского, 73, склад Быт-2</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Увлажнитель воздуха, серия 5</goods_name>
+    <manufacturer_name>Уютный Выбор</manufacturer_name>
+    <manufacturer_tin>570523455</manufacturer_tin>
+    <quantity_in_stock>36</quantity_in_stock>
+    <warehouse_addres>Пинск, ул. Центральная, 19, склад Быт-3</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Пылесос вертикальный, серия 5</goods_name>
+    <manufacturer_name>СкладДомСервис</manufacturer_name>
+    <manufacturer_tin>670623456</manufacturer_tin>
+    <quantity_in_stock>2</quantity_in_stock>
+    <warehouse_addres>Бобруйск, ул. Социалистическая, 118, склад Быт-4</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Комплект постельного белья, серия 5</goods_name>
+    <manufacturer_name>ДомКомфорт Поставка</manufacturer_name>
+    <manufacturer_tin>170123451</manufacturer_tin>
+    <quantity_in_stock>9</quantity_in_stock>
+    <warehouse_addres>Лида, ул. Невского, 21, склад Быт-5</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Сушилка для одежды, серия 5</goods_name>
+    <manufacturer_name>Чистый Быт</manufacturer_name>
+    <manufacturer_tin>270223452</manufacturer_tin>
+    <quantity_in_stock>16</quantity_in_stock>
+    <warehouse_addres>Минск, ул. Бирюзова, 12, склад Быт-1</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Термокружка стальная, серия 5</goods_name>
+    <manufacturer_name>КухняМаркет</manufacturer_name>
+    <manufacturer_tin>370323453</manufacturer_tin>
+    <quantity_in_stock>23</quantity_in_stock>
+    <warehouse_addres>Могилёв, ул. Якубовского, 73, склад Быт-2</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Органайзер для ванной, серия 5</goods_name>
+    <manufacturer_name>ТекстильТорг</manufacturer_name>
+    <manufacturer_tin>470423454</manufacturer_tin>
+    <quantity_in_stock>30</quantity_in_stock>
+    <warehouse_addres>Пинск, ул. Центральная, 19, склад Быт-3</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Настольная лампа, серия 5</goods_name>
+    <manufacturer_name>Уютный Выбор</manufacturer_name>
+    <manufacturer_tin>570523455</manufacturer_tin>
+    <quantity_in_stock>37</quantity_in_stock>
+    <warehouse_addres>Бобруйск, ул. Социалистическая, 118, склад Быт-4</warehouse_addres>
+  </goods>
+  <goods>
+    <goods_name>Фильтр-кувшин для воды, серия 5</goods_name>
+    <manufacturer_name>СкладДомСервис</manufacturer_name>
+    <manufacturer_tin>670623456</manufacturer_tin>
+    <quantity_in_stock>3</quantity_in_stock>
+    <warehouse_addres>Лида, ул. Невского, 21, склад Быт-5</warehouse_addres>
+  </goods>
+</goods_items>

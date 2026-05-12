@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lab-3-moorhuhn"
+version = "0.1.0"
+description = "Educational pygame implementation of Moorhuhn for LAB_3."
+requires-python = ">=3.11"
+dependencies = [
+    "pygame>=2.5",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8",
+]
+
+[project.scripts]
+moorhuhn = "moorhuhn.main:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.coverage.run]
+omit = [
+    "src/moorhuhn/app/application.py",
+    "src/moorhuhn/game/background.py",
+    "src/moorhuhn/game/entities.py",
+    "src/moorhuhn/game/world.py",
+    "src/moorhuhn/media/assets.py",
+    "src/moorhuhn/media/audio.py",
+    "src/moorhuhn/ui/game_screens.py",
+    "src/moorhuhn/ui/menu_scene.py",
+    "src/moorhuhn/ui/menu_screens.py",
+]
